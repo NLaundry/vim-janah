@@ -1,6 +1,6 @@
 " vim: et sw=2 sts=2
 
-" Plugin:      https://github.com/mhinz/vim-janah
+" Plugin:      https://github.com/StealthGiraffe/vim-janah
 " Description: A 256 colors colorscheme for Vim.
 " Maintainer:  Marco Hinz <http://github.com/mhinz>
 " Changes: Nathan Laundry <http://github.com/StealthGiraffe>
