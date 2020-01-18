@@ -3,6 +3,7 @@
 " Plugin:      https://github.com/mhinz/vim-janah
 " Description: A 256 colors colorscheme for Vim.
 " Maintainer:  Marco Hinz <http://github.com/mhinz>
+" Changes: Nathan Laundry <http://github.com/StealthGiraffe>
 
 highlight clear
 
@@ -10,7 +11,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-highlight Normal guifg=#dadada ctermfg=253 guibg=#262626 gui=NONE cterm=NONE
+highlight Normal guifg=#dadada ctermfg=253 guibg=#2D2A2E gui=NONE cterm=NONE
 
 " Misc {{{1
 
@@ -40,9 +41,9 @@ highlight CursorLine ctermfg=NONE guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
 
 " Tabline {{{1
 
-highlight TabLine guifg=#808080 ctermfg=244 guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
-highlight TabLineFill guifg=#dfdfaf ctermfg=187 guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
-highlight TabLineSel guifg=#e4e4e4 ctermfg=254 guibg=#303030 ctermbg=236 gui=bold cterm=bold
+highlight TabLine guifg=#808080 ctermfg=244 guibg=#2D2A2E ctermbg=236 gui=NONE cterm=NONE
+highlight TabLineFill guifg=#dfdfaf ctermfg=187 guibg=#2D2A2E ctermbg=236 gui=NONE cterm=NONE
+highlight TabLineSel guifg=#FFD866 ctermfg=254 guibg=#2D2A2E ctermbg=236 gui=bold cterm=bold
 
 " Statusline {{{1
 
@@ -51,19 +52,19 @@ highlight StatusLineNC guifg=#808080 ctermfg=244 guibg=#3a3a3a ctermbg=237 gui=N
 
 " Number column {{{1
 
-highlight CursorLineNr guifg=#878787 ctermfg=102 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
-highlight LineNr guifg=#878787 ctermfg=102 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
+highlight CursorLineNr guifg=#585858 guibg=#2D2A2E gui=NONE cterm=NONE
+highlight LineNr guifg=#585858 guibg=#2D2A2E gui=NONE cterm=NONE
 
 " Color column {{{1
 
-highlight ColorColumn ctermfg=NONE guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
+highlight ColorColumn ctermfg=NONE guibg=#2D2A2E ctermbg=237 gui=NONE cterm=NONE
 
 " Diff & Signs {{{1
 
-highlight SignColumn ctermfg=NONE guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
+highlight SignColumn ctermfg=NONE guibg=#2D2A2E ctermbg=237 gui=NONE cterm=NONE
 
-highlight DiffAdd guifg=#87ff5f ctermfg=119 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-highlight DiffDelete guifg=#df5f5f ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+highlight DiffAdd guifg=#87ff5f ctermfg=119 guibg=#2D2A2E ctermbg=NONE gui=NONE cterm=NONE
+highlight DiffDelete guifg=#df5f5f ctermfg=167   ctermbg=NONE gui=NONE cterm=NONE
 highlight DiffChange guifg=#ffff5f ctermfg=227 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight DiffText guifg=#ff5f5f ctermfg=203 guibg=#5f0000 ctermbg=52 gui=bold cterm=bold
 
